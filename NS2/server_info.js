@@ -8,7 +8,7 @@ export async function main(ns){
         ns.tprint("Server Max Ram: " + ns.getServerMaxRam(host));
         ns.tprint("Server Used Ram: " + ns.getServerUsedRam(host));
         ns.tprint("Growth Rate: " + ns.getServerGrowth(host));
-        ns.tprint("Hack %: " + ns.hackAnalyzePercent(host));
+        ns.tprint("Hack $ 1 Thread%: " + ns.hackAnalyze(host));
         ns.tprint("Max Money: " + ns.getServerMaxMoney(host));
         ns.tprint("Money: " + ns.getServerMoneyAvailable(host));
         ns.tprint("Min Security: " + ns.getServerMinSecurityLevel(host));
